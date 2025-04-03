@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABDATES | Premium Dates from Zagora</title>
+  <link rel="icon" href="images/dates-icon.ico" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fdf7f0;
+      color: #3e2d1c;
+    }
+    header {
+      background-color: #7b4b2a;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      height: 60px;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+    nav {
+      text-align: center;
+      background: #5e3720;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .ayah {
+      font-style: italic;
+      font-size: 1.1rem;
+      background: #f3e7d8;
+      padding: 1rem;
+      border-radius: 10px;
+      margin: 1rem auto;
+      max-width: 700px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #7b4b2a;
+    }
+    .card p {
+      font-size: 0.95rem;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      color: #3e2d1c;
+    }
+    .product-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 0.5rem;
+    }
+    .contact-icons a {
+      margin: 0 0.5rem;
+      color: #3e2d1c;
+      font-size: 1.5rem;
+    }
+    .contact-icons a:hover {
+      color: #7b4b2a;
+    }
+    .order-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #7b4b2a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #7b4b2a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="ABDATES Logo">
+    <h1>ABDATES</h1>
+    <p>Made in Zagora | Pure Organic Dates</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      ABDATES is founded by Serraoui Abdelkader, a student from ISCAE Casablanca and native of Zagora, Morocco. Our mission is to bring the golden taste of premium Zagora dates to the world through e-commerce, modern publicity, and authentic Moroccan packaging.
+    </p>
+    <div class="ayah">
+      "And from the fruits of date-palms and grapes, you derive intoxicants and good provision. Verily, in this is indeed a sign for people who reason." <br/>— Surah An-Nahl 16:67
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card">
+        <img src="images/medjool.jpg" alt="Medjool Dates" class="product-img" />
+        <h3>Medjool Dates</h3>
+        <p><strong>History:</strong> Known as the 'King of Dates', Medjool dates have been grown in Morocco for centuries, cherished for their rich flavor and size.</p>
+        <p><strong>Benefits:</strong> High in fiber, potassium, and antioxidants. Great for energy and digestion.</p>
+        <p class="price">120 MAD / kg</p>
+        <a href="#order" class="order-button">Order Now</a>
+      </div>
+      <div class="card">
+        <img src="images/boufeggous.jpg" alt="Boufeggous Dates" class="product-img" />
+        <h3>Boufeggous Dates</h3>
+        <p><strong>History:</strong> A native variety from the Draa Valley, Boufeggous dates are soft, sweet, and traditionally used in Moroccan hospitality.</p>
+        <p><strong>Benefits:</strong> Supports heart health, rich in natural sugars and minerals.</p>
+        <p class="price">90 MAD / kg</p>
+        <a href="#order" class="order-button">Order Now</a>
+      </div>
+      <div class="card">
+        <img src="images/degletnour.jpg" alt="Deglet Nour Dates" class="product-img" />
+        <h3>Deglet Nour Dates</h3>
+        <p><strong>History:</strong> Popular in North Africa, Deglet Nour is known for its golden translucence and mild sweetness.</p>
+        <p><strong>Benefits:</strong> Excellent snack choice, full of dietary fiber and natural glucose.</p>
+        <p class="price">100 MAD / kg</p>
+        <a href="#order" class="order-button">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" style="background-color: #f1e3d3">
+    <h2>Contact Us</h2>
+    <p><strong>Name:</strong> Serraoui Abdelkader</p>
+    <p><strong>Address:</strong> Sart town, ZAGORA, Morocco</p>
+    <div class="contact-icons">
+      <a href="tel:+212654851132" title="Call"><i class="fas fa-phone"></i></a>
+      <a href="mailto:abdatesbusiness@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://x.com/abdates25" title="Twitter/X" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/abdates25" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 ABDATES. All rights reserved.
+  </footer>
+</body>
+</html>
